@@ -1,0 +1,55 @@
+/* Hola, soy un comentario CSS */
+
+/* Alinear los elementos de la página. Text-align sirve para alinear tanto los textos como las imágenes */
+
+body {
+	text-align: center;
+}
+
+.color-block {
+	/* background-color: #FFFFFF; */
+	/* background-color: rgb(86, 102, 161);*/
+	background-color: white;	/*color en inglés*/
+	display: block;
+  	position: relative;
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+  	position: absolute;
+  	right: 170px;
+  	left:170px;
+}
+
+
+h2, h3, h4, h5, h6, a {
+	font-family: 'Reenie Beanie', cursive;
+	color: DarkRed;
+	}
+
+p {
+	color: DimGrey;
+}
+
+/*cambiando tamaño de una foto*/
+.img-logo {
+	/*width: 800px; */
+	width: 100%;
+}
+
+h2 {
+	font-size: xx-large;
+}
+
+h4 {
+	font-size: x-large;
+}
+
+a {
+	font-size: large;
+}
+
+/* hacer el separador*/
+.enlaces {
+	border-top: 2px dashed DarkRed;
+}

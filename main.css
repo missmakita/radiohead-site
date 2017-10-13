@@ -27,8 +27,11 @@ h2, h3, h4, h5, h6, a {
 	color: DarkRed;
 	}
 
-p {
+a, p {
 	color: DimGrey;
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 1.5em;
+	text-decoration: none;
 }
 
 /*cambiando tamaño de una foto*/
@@ -45,11 +48,11 @@ h4 {
 	font-size: x-large;
 }
 
-a {
-	font-size: large;
-}
-
 /* hacer el separador*/
 .enlaces {
 	border-top: 2px dashed DarkRed;
+}
+
+#main-img {
+	padding: 3em;
 }
